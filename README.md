@@ -1,2 +1,3 @@
-# cmsc355-assignment3
-Starter code for assignment 3
+# Assignment 3
+Please check Blackboard for the specifications and rubric for this assignment.
+The starter code created in class will be uploaded here.
