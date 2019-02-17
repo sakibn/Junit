@@ -1,6 +1,13 @@
-/**
- * Created by debmduke on 2/7/19.
- */
+//////////////////////////////////////////////////////////////////
+//
+//	File		:FractionalNumber.java
+//	Description	:This is FractionalNumber.java which were tested by the FractionalNumberTest.java With Juint 4.0
+//               FractionalNumberTest has more information
+//
+//	Author		:Nazmus Saqib
+//	Created		:2/16/2018
+
+
 public class FractionalNumber {
     private int numerator;
     private int denominator;
@@ -41,7 +48,7 @@ public class FractionalNumber {
      *   Postcondition: this is the sum of the two fractions
      *   Class Invariant: otherNum is not changed
      *   @param  otherNum    a FractionalNumber*/
-    public void add(final FractionalNumber otherNum) {
+    public void add(final FractionalNumber otherNum) { //add function
 //        a/b + c/d = (a*d + b*c) / b*d
         int a = this.getNumerator();
         int b = this.getDenominator();
@@ -54,7 +61,7 @@ public class FractionalNumber {
 
     }
 
-    public void subtract(final FractionalNumber otherNum) {
+    public void subtract(final FractionalNumber otherNum) { //substract function
 //        a/b – c/d = (a*d – b*c) / b*d
         int a = this.getNumerator();
         int b = this.getDenominator();
@@ -66,7 +73,7 @@ public class FractionalNumber {
         denominator = b * d;
     }
 
-    public void multiply(final FractionalNumber otherNum) {
+    public void multiply(final FractionalNumber otherNum) { //multiply functions
 //        a/b * c/d = a*c / d*b
         int a = this.getNumerator();
         int b = this.getDenominator();
@@ -78,7 +85,7 @@ public class FractionalNumber {
         denominator = (d * b);
     }
 
-    public void divide(final FractionalNumber otherNum) {
+    public void divide(final FractionalNumber otherNum) { //divide function
 //        (a/b) / (c/d) = a*d / b*c
         int a = this.getNumerator();
         int b = this.getDenominator();
@@ -103,7 +110,7 @@ public class FractionalNumber {
         numerator = num;
     }
 
-    public void setDenominator(int denom) {
+    public void setDenominator(int denom) { // error check if the denominator is zero
         if (denom == 0) {
             throw new IllegalArgumentException("Denominator cannot be zero");
         } else {
@@ -126,7 +133,7 @@ public class FractionalNumber {
     }
 
     @Override
-    public String toString() {
+    public String toString() { //display the result here. Assert gets the information from here
         return numerator + "/" + denominator;
     }
 }
