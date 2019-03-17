@@ -1,11 +1,13 @@
-//////////////////////////////////////////////////////////////////
-//
-//	File		:FractionalNumber.java
-//	Description	:This is FractionalNumber.java which were tested by the FractionalNumberTest.java With Juint 4.0
-//               FractionalNumberTest has more information
-//
-//	Author		:Nazmus Saqib
-//	Created		:2/16/2018
+/*
+
+
+File		:FractionalNumber.java
+Description	:This is FractionalNumber.java which were tested by the FractionalNumberTest.java With Juint 4.0
+FractionalNumberTest has more information
+
+Author		:Nazmus Saqib
+Created		:2/16/2018
+*/
 
 
 public class FractionalNumber {
